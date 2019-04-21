@@ -32,15 +32,15 @@ body {
       <input type="radio" name="gender"  onclick="radioFunction(this)" value="wordCount"/> Word Count
       <br>
       <br>
-      <span>Data Source</span>
-    <select id="dataSource" onchange="onDataSourceChange()">
+     <span>Data Source</span>
+    <select id="dataSource" onchange="onDataSourceChange()" data-native-menu="false">
       <!-- <option value="select" selected="selected">Select</option> -->
       <option value="twitter" selected="selected">Twitter</option>
       <option value="nyTimes">New York Times</option>
       <option value="cc">Common Crawl</option>
     </select>
     <span style="margin-left: 10px">Topic</span>
-    <select id="subTopic" onchange="onSubtopicChange()">
+    <select id="subTopic" onchange="onSubtopicChange()" data-native-menu="false">
       <!-- <option value="select" selected="selected">Select</option> -->
       <option value="all" selected="selected">Sports</option>
       <option value="baseball">Baseball</option>
