@@ -32,7 +32,8 @@ body {
       <input type="radio" name="gender"  onclick="radioFunction(this)" value="wordCount"/> Word Count
       <br>
       <br>
-     <span>Data Source</span>
+    <form action="#" method="get">
+      <span>Data Source</span>
     <select id="dataSource" onchange="onDataSourceChange()" data-native-menu="false">
       <!-- <option value="select" selected="selected">Select</option> -->
       <option value="twitter" selected="selected">Twitter</option>
@@ -49,6 +50,7 @@ body {
       <option value="tennis">Tennis</option>
       <option value="rugby">Rugby</option>
     </select>
+  </form>
 </div>
 
 
